@@ -4,14 +4,14 @@
 # -------------------------------------------------------------------------------------
 
 title = "Hugo FixIt Blog"
-baseURL = "/"
+baseURL = "/fixit"
 # theme = "FixIt"
 defaultContentLanguage = "en"
 languageCode = "en"
 hasCJKLanguage = false
 enableRobotsTXT = true
 enableEmoji = true
-enableGitInfo = false
+enableGitInfo = true
 relativeURLs = true
 buildDrafts = false
 summaryLength = 150

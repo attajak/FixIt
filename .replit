@@ -1,0 +1,13 @@
+run = "npm run server"
+modules = ["nodejs-20"]
+entrypoint = "README.md"
+
+[nix]
+channel = "stable-23_11"
+
+[deployment]
+run = ["sh", "-c", "npm run build"]
+
+[[ports]]
+localPort = 1313
+externalPort = 80

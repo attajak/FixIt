@@ -1,26 +1,23 @@
-# Hugo FixIt Blog Template (Go)
+---
+title: Hello World
+date: 2022-09-29T17:06:11+08:00
+tags:
+- hello
+- FixIt
+categories:
+- hello
+code:
+  maxShownLines: 11
+# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+---
 
-<!-- 👉 English | [简体中文](README.md) -->
+Welcome to Hugo FixIt! This is your very first post.
 
-This is a quick start template for Hugo theme [FixIt](https://github.com/hugo-fixit/FixIt). It uses [Hugo Modules](https://gohugo.io/hugo-modules/) feature to load the theme.
+<!--more-->
 
-It comes with a basic theme structure and configuration. GitHub action has been set up to deploy the blog to a public GitHub page automatically. Also, there's a cron job to update the theme automatically everyday.
+Head to the documentation page linked below for a complete guidence to get started with the [FixIt](https://github.com/hugo-fixit/FixIt) theme.
 
-## Directory structure
-
-```bash
-▸ .github/       # GitHub configuration
-▸ archetypes/    # page archetypes (like scaffolds of archetypes)
-▸ assets/        # css, js, third-party libraries etc.
-▸ config/        # configuration files
-▸ content/       # markdown files for hugo project
-▸ data/          # blog data (allow: yaml, json, toml), e.g. friends.yml
-▸ public/        # build directory
-▸ static/        # static files, e.g. favicon.ico
-▸ themes/        # theme submodules
-▸ go.mod
-▸ go.sum
-```
+{{< link href="https://fixit.lruihao.cn/documentation/" content="All Documentation - FixIt" title="documentation of FixIt Theme" card=true >}}
 
 ## Quick Start
 
@@ -31,7 +28,7 @@ For a complete quick start, see this [page](https://fixit.lruihao.cn/documentati
 - [Go](https://go.dev/dl/)
 - [Hugo](https://gohugo.io/installation/): >= 0.112.0 (extended version)
 
-### Use Template
+### Use this Template
 
 1. Click **Use this template**, and create your repository on GitHub.
 
@@ -87,9 +84,8 @@ hugo mod tidy
 
 </details>
 
-## Troubleshooting
+## Feedback
 
-<details>
-  <summary>remote: Permission to git denied to github-actions[bot].</summary>
-  Head to Setting => Actions => General => Workflow permissions => Check "Read and write permissions".
-</details>
+Whether it's questions, ideas, bugs or pull requests, all feedback is welcome!
+
+Head over to the [issues](https://github.com/hugo-fixit/FixIt/issues) or [discussions](https://github.com/hugo-fixit/FixIt/discussions) tracker.
