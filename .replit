@@ -1,6 +1,6 @@
 run = "npm run server"
-modules = ["nodejs-20"]
 entrypoint = "README.md"
+hidden = [".config"]
 
 [nix]
 channel = "stable-23_11"

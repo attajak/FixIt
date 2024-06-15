@@ -6,7 +6,7 @@ slug: 6083a88
 description:
 keywords:
 comment: false
-draft: false
+draft: true
 ---
 ## About
 Attajak Janrak
