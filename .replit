@@ -1,4 +1,4 @@
-run = "npm run server"
+run = "hugo server --bind 0.0.0.0"
 entrypoint = "README.md"
 hidden = [".config"]
 
@@ -6,7 +6,7 @@ hidden = [".config"]
 channel = "stable-23_11"
 
 [deployment]
-run = ["sh", "-c", "npm run build"]
+run = ["sh", "-c", "hugo server -e production"]
 
 [[ports]]
 localPort = 1313

@@ -2,7 +2,7 @@
 title: Hello
 subtitle:
 date: 2024-06-07T19:18:42Z
-slug: b12471f
+slug: hello
 draft: false
 author:
   name: Attajak Janrak
@@ -34,7 +34,7 @@ lightgallery: false
 password:
 message:
 repost:
-  enable: true
+  enable: false
   url:
 
 # See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
