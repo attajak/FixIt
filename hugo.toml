@@ -136,7 +136,7 @@ enableEmoji = true
     extended = true
     min = "0.123.0"
 
-  [[imports]]
+  [[module.imports]]
     path = "github.com/hugo-fixit/FixIt"
 
 # -------------------------------------------------------------------------------------
@@ -294,9 +294,9 @@ enableEmoji = true
   # FixIt 0.2.15 | CHANGED FixIt theme version
   version = "0.3.X" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
   # site description
-  description = ""
+  description = "Hugo-FixIt"
   # site keywords
-  keywords = []
+  keywords = ["Hugo", "FixIt", "Attajak", "Janrak"]
   # site default theme ["light", "dark", "auto"]
   defaultTheme = "auto"
   # which hash function used for SRI, when empty, no SRI is used
