@@ -1,4 +1,4 @@
-module fixit
+module github.com/attajak/fixit
 
 go 1.21.4
 
